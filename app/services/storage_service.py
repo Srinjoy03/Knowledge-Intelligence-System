@@ -26,4 +26,3 @@ class S3Storage:
         except ClientError as e:
             print(f"Error retrieving file: {e}")
             return None
-        
